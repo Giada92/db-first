@@ -3,20 +3,20 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 Nome della Tabella: auto_usate
 
 Colonne:
-id - intero
-marca_auto - stringa
-modello_auto - stringa
-targa - stringa 
-prezzo - intero
-disponibile - booleano
-allestimento_auto - stringa
-carrozzeria - stringa
-alimentazione - stringa
-anno_immatricolazione - intero
-potenza(CV) - intero
-chilometraggio - intero
-tipo_cambio - stringa
-colore - stringa
-n_posti - intero
-n_porte - intero
-n_proprietari_precedenti - intero
+id - intero - MEDIUMINT - PRIMARY KEY 
+marca_auto - stringa - VARCHAR(30) - NOTNULL
+modello_auto - stringa VARCHAR(30) - NOTNULL
+targa - stringa - CHAR(7) 
+prezzo - intero - FLOAT (8, 2) - NOTNULL
+disponibile - booleano - TINYINT(1) - DEFAULT 1
+allestimento_auto - stringa - VARCHAR(30)
+carrozzeria - stringa - VARCHAR(30)
+alimentazione - stringa - VARCHAR(20) - NOTNULL
+anno_immatricolazione - intero - YEAR - NOTNULL
+potenza(CV) - intero - TINYINT(4) - NOTNULL
+chilometraggio - intero - SMALL - NOTNULL
+tipo_cambio - stringa - VARCHAR(20)
+colore - stringa - VARCHAR(50) - NULL
+n_posti - intero - TINYINT - NULL
+n_porte - intero - TINYINT - NULL
+n_proprietari_precedenti - intero - TINYINT - NULL
