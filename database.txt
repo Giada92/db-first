@@ -1,0 +1,22 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+Nome della Tabella: auto_usate
+
+Colonne:
+id - intero
+marca_auto - stringa
+modello_auto - stringa
+targa - stringa 
+prezzo - intero
+disponibile - booleano
+allestimento_auto - stringa
+carrozzeria - stringa
+alimentazione - stringa
+anno_immatricolazione - intero
+potenza(CV) - intero
+chilometraggio - intero
+tipo_cambio - stringa
+colore - stringa
+n_posti - intero
+n_porte - intero
+n_proprietari_precedenti - intero
